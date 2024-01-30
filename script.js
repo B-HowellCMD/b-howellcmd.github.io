@@ -19,3 +19,18 @@ link1.addEventListener('click', () => {scrollToElement('.header')});
 link2.addEventListener('click', () => {scrollToElement('.header', 1)});
 // Scroll to the third element with the class header
 link3.addEventListener('click', () => {scrollToElement('.column')});
+
+document.getElementById("link1").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.querySelector(event.target.getAttribute('href')).scrollIntoView({behavior: "smooth"});
+})
+
+document.getElementById("link2").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.querySelector(event.target.getAttribute('href')).scrollIntoView({behavior: "smooth"});
+})
+
+document.getElementById("link3").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.querySelector(event.target.getAttribute('href')).scrollIntoView({behavior: "smooth"});
+})
