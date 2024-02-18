@@ -34,3 +34,11 @@ document.getElementById("link3").addEventListener("click", function(event) {
     event.preventDefault();
     document.querySelector(event.target.getAttribute('href')).scrollIntoView({behavior: "smooth"});
 })
+
+function darkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
+
+
+
