@@ -1,134 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bryson Howell Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav>
-      <div class="nav-logo">
-        <a href="#">
-          <img src="images/logo.png" alt="logo" />
-        </a>
-      </div>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Bryson Howell - Computer Science Student & Aspiring Developer. Personal portfolio showcasing projects, skills, and experience."
+		/>
+		<meta
+			name="keywords"
+			content="Bryson Howell, portfolio, developer, computer science, React, TypeScript, web development"
+		/>
+		<meta name="author" content="Bryson Howell" />
 
-      <ul class="nav-links">
-        <li class="link"><a href="#">Home</a></li>
-        <li id="link1" class="link"><a href="#project-section">Projects</a></li>
-        <li class="link"><a href="resume.html">Resume</a></li>
-        <li id="link3" class="link"><a href="#about-me">About Me</a></li>
-        <div class="socials">
-          <a href="https://github.com/B-HowellCMD" target="_blank"
-            ><i class="ri-github-line"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/b-howellcmd/" target="_blank"
-            ><i class="ri-linkedin-fill"></i
-          ></a>
-        </div>
-        <button onclick="darkMode()" class="dark-mode-btn">
-          <i class="ri-contrast-2-fill"></i>
-        </button>
-      </ul>
-      <button class="btn">Hire Me</button>
-    </nav>
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://brysonhowell.dev/" />
+		<meta property="og:title" content="Bryson Howell - Portfolio" />
+		<meta
+			property="og:description"
+			content="Computer Science Student & Aspiring Developer. Personal portfolio showcasing projects, skills, and experience."
+		/>
+		<meta property="og:image" content="/placeholder.svg" />
 
-    <header class="container">
-      <div class="content">
-        <span class="blur"></span>
-        <span class="blur"></span>
-        <h4>Bryson Howell</h4>
-        <h1>
-          Hi, I'm <span>Bryson</span>, college student pursuing Computer Science
-        </h1>
-        <p>
-          I have been studying computer science for over a year now and have a
-          few passion projects that I like to show off. Located below are some
-          of the projects that I have worked on over the past few months.
-        </p>
-        <button class="btn">Get Started</button>
-      </div>
-    </header>
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://brysonhowell.dev/" />
+		<meta property="twitter:title" content="Bryson Howell - Portfolio" />
+		<meta
+			property="twitter:description"
+			content="Computer Science Student & Aspiring Developer. Personal portfolio showcasing projects, skills, and experience."
+		/>
+		<meta property="twitter:image" content="/placeholder.svg" />
 
-    <section id="project-section" class="container">
-      <h2 class="header">My Projects</h2>
-      <div class="features">
-        <div class="card">
-          <span><i class="ri-gamepad-fill"></i></span>
-          <h4>Video Game Release Calendar</h4>
-          <img src="images/screenshot.png" alt="" />
-          <p>
-            A website that shows off the upcoming video game releases in a
-            calendar format.
-          </p>
-          <a
-            href="https://github.com/B-HowellCMD/Video-Game-Release-Calender/tree/main"
-            target="_blank"
-            ><i class="ri-github-fill"></i
-          ></a>
-        </div>
-
-        <div class="card">
-          <span><i class="ri-macbook-fill"></i></span>
-          <h4>iRes</h4>
-          <img src="images/demo.gif" alt="" />
-          <p>
-            A JavaScript app that shows off your macbooks resource allocations
-            in the terminal. Ran with Node.
-          </p>
-          <a
-            href="https://github.com/B-HowellCMD/ires/tree/main"
-            target="_blank"
-            ><i class="ri-github-fill"></i
-          ></a>
-        </div>
-        <div class="card">
-          <span><i class="ri-typhoon-fill"></i></span>
-          <h4>Weather App React.JS</h4>
-          <p>
-            A simple weather app built in React.JS. Shows off the current
-            weather and a 5 day forecast.
-          </p>
-          <a href="#"><i class="ri-github-fill"></i></a>
-        </div>
-      </div>
-    </section>
-
-    <footer class="container">
-      <span class="blur"></span>
-      <span class="blur"></span>
-      <div class="column">
-        <div class="logo">
-          <img src="images/logo.png" alt="" />
-        </div>
-        <p id="about-me">
-          Hello, my name is Bryson and I have been studying computer science for
-          over a year now and programming for a couple of years. Programming
-          first started as a hobbby doing video game mods and now has turned
-          into a career path for myself.
-        </p>
-        <div class="socials">
-          <a href="https://github.com/B-HowellCMD" target="_blank"
-            ><i class="ri-github-fill"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/b-howellcmd/" target="_blank"
-            ><i class="ri-linkedin-fill"></i
-          ></a>
-        </div>
-      </div>
-      <div class="column">
-        <h4>Links</h4>
-        <a href="#project-section">Projects</a>
-        <a href="resume.html">Resume</a>
-        <a href="#about-me">About Me</a>
-      </div>
-    </footer>
-
-    <script src="script.js"></script>
-  </body>
+		<title>Bryson Howell - Portfolio</title>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="module" src="/src/main.tsx"></script>
+	</body>
 </html>
