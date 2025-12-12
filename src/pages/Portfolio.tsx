@@ -107,7 +107,7 @@ export const Portfolio = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 className="bg-gb-teal hover:bg-gb-teal/80 text-white shadow-gb-button"
-                				onClick={() => window.open('mailto:contact@brysonhowell.dev', '_blank')}
+                				onClick={() => window.open('mailto:bryson.howell13@yahoo.com', '_blank')}
               >
                 Send Email
               </Button>

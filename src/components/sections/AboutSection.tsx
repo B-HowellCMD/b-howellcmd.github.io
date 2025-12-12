@@ -38,18 +38,16 @@ export const AboutSection = () => {
             <GlowCard glowColor="purple">
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-foreground mb-6">
-                  Computer Science Student & Future Developer
+                  Computer Science Student 
                 </h3>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
+                  <p>
+                    I have real world job and leadership experience. I have worked for UBreakifix for 3 years making my way up to the store manager before I made my way to Best Buy. I enjoy the problem solving environments that these work places could provide me. Whether it is fixing phones, random computer problem's or walking an older person through on how to use their brand new laptop. Ever since graduating High School in 2020, I have a passion to fix anything that I can get my hands on and teach other people what I know. I feel very proud of my knowledge that I have so far and wish to share that with everyone that I can.
+                  </p>
                   <p>
                     Currently pursuing a Computer Science degree with a passion for software development 
                     and technology. I have hands-on experience with modern web technologies, programming languages, 
                     and development frameworks through coursework and personal projects.
-                  </p>
-                  <p>
-                    My academic journey has provided me with strong foundations in algorithms, data structures, 
-                    and software engineering principles. I enjoy tackling challenging problems and learning 
-                    new technologies to create innovative solutions.
                   </p>
                   <p>
                     Seeking internship opportunities to apply my technical skills in a professional environment 
