@@ -8,21 +8,21 @@ export const ContactSection = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "your-email@example.com",
+      value: "bryson.howell13@yahoo.com",
       action: () => window.open("mailto:bryson.howell13@yahoo.com", "_blank"),
       color: 'purple' as const
     },
     {
       icon: <Github className="w-6 h-6" />,
       label: 'GitHub',
-      value: '@your-username',
+      value: 'b-howellcmd',
       action: () => window.open('https://github.com/b-howellcmd', '_blank'),
       color: 'cyan' as const
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
       label: 'LinkedIn',
-      value: "/in/your-profile",
+      value: "b-howellcmd",
       action: () => window.open("https://www.linkedin.com/in/b-howellcmd/", "_blank"),
       color: 'pink' as const
     }
