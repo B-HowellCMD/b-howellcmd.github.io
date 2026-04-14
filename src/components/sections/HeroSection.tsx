@@ -63,7 +63,7 @@ export const HeroSection = () => {
             
             <ParticleButton 
               variant="cyan"
-              onClick={() => window.open("mailto:bryson@example.com", "_blank")}
+              onClick={() => window.open("mailto:bryson.howell13@yahoo.com", "_blank")}
             >
               <Mail className="w-4 h-4 mr-2" />
               Get In Touch
@@ -71,7 +71,7 @@ export const HeroSection = () => {
             
             <ParticleButton 
               variant="pink"
-              onClick={() => window.open('https://github.com/your-username', '_blank')}
+              onClick={() => window.open('https://github.com/B-HowellCMD', '_blank')}
             >
               <Github className="w-4 h-4 mr-2" />
               GitHub

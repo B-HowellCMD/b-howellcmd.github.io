@@ -15,15 +15,15 @@ export const ContactSection = () => {
     {
       icon: <Github className="w-6 h-6" />,
       label: 'GitHub',
-      value: 'b-howellcmd',
-      action: () => window.open('https://github.com/b-howellcmd', '_blank'),
+      value: 'B-HowellCMD',
+      action: () => window.open('https://github.com/B-HowellCMD', '_blank'),
       color: 'cyan' as const
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
       label: 'LinkedIn',
-      value: "b-howellcmd",
-      action: () => window.open("https://www.linkedin.com/in/b-howellcmd/", "_blank"),
+      value: "B-HowellCMD",
+      action: () => window.open("https://www.linkedin.com/in/B-HowellCMD/", "_blank"),
       color: 'pink' as const
     }
   ];
@@ -76,7 +76,7 @@ export const ContactSection = () => {
                 
                 <ParticleButton 
                   variant="purple" 
-                  onClick={() => window.open("mailto:your-email@example.com", "_blank")}
+                  onClick={() => window.open("mailto:bryson.howell13@yahoo.com", "_blank")}
                 >
                   <Mail className="w-4 h-4 mr-2" />
                   Let's Connect
