@@ -35,7 +35,7 @@ This project is open source and available under the [MIT License](LICENSE).
 Feel free to reach out if you have any questions or would like to collaborate:
 
 - **Email**: bhowel57@wgu.edu & bryson.howell13@yahoo.com
-- **GitHub**: [@b-howellcmd](https://github.com/b-howellcmd)
+- **GitHub**: [@B-HowellCMD](https://github.com/B-HowellCMD)
 - **LinkedIn**: [Bryson Howell](https://www.linkedin.com/in/b-howellcmd/)
 
 ---
