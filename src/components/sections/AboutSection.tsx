@@ -4,11 +4,11 @@ import { Code, Gamepad2, Cpu, Palette, Database, Zap } from 'lucide-react';
 
 const skills = [
   { icon: <Code className="w-6 h-6" />, name: "React & TypeScript" },
-  { icon: <Gamepad2 className="w-6 h-6" />, name: "Game Development" },
-  { icon: <Cpu className="w-6 h-6" />, name: "System Programming" },
-  { icon: <Database className="w-6 h-6" />, name: "API Design" },
-  { icon: <Palette className="w-6 h-6" />, name: "UI/UX Design" },
-  { icon: <Zap className="w-6 h-6" />, name: "Performance Optimization" }
+  { icon: <Gamepad2 className="w-6 h-6" />, name: "Full Stack Development (Node.js, APIs, PostgreSQL)" },
+  { icon: <Cpu className="w-6 h-6" />, name: "Cloud & DevOps (AWS, Docker, Linux)" },
+  { icon: <Database className="w-6 h-6" />, name: "API Design & Integration" },
+  { icon: <Palette className="w-6 h-6" />, name: "System-Level Thinking (OS, performance, monitoring)" },
+  { icon: <Zap className="w-6 h-6" />, name: "Debugging & Performance Optimization" }
 ];
 
 export const AboutSection = () => {
@@ -42,16 +42,14 @@ export const AboutSection = () => {
                 </h3>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    I have real world job and leadership experience. I have worked for UBreakifix for 3 years making my way up to the store manager before I made my way to Best Buy. I enjoy the problem solving environments that these work places could provide me. Whether it is fixing phones, random computer problem's or walking an older person through on how to use their brand new laptop. Ever since graduating High School in 2020, I have a passion to fix anything that I can get my hands on and teach other people what I know. I feel very proud of my knowledge that I have so far and wish to share that with everyone that I can.
+                      I started my career in hands-on technical roles, working my way up to a leadership position at uBreakiFix before moving into an advanced repair role at Best Buy. Those experiences put me in fast-paced, problem-solving environments where I learned how to diagnose complex issues, communicate clearly with people of all backgrounds, and take ownership of real outcomes. Whether I’m fixing a device, troubleshooting a system issue, or helping someone understand new technology, I enjoy breaking problems down and finding practical solutions.                  </p>
+                  <p>
+                    That same mindset is what led me into software development. I’m currently pursuing a degree in Computer Science and building full-stack applications using modern technologies like React, Node.js, and PostgreSQL. I’ve developed a strong foundation through coursework in operating systems, compilers, frontend and backend development, and Linux systems, and I apply those concepts directly in my projects.
                   </p>
                   <p>
-                    Currently pursuing a Computer Science degree with a passion for software development 
-                    and technology. I have hands-on experience with modern web technologies, programming languages, 
-                    and development frameworks through coursework and personal projects.
-                  </p>
-                  <p>
-                    Seeking internship opportunities to apply my technical skills in a professional environment 
-                    while contributing to meaningful projects and continuing to grow as a developer.
+                    I’m especially interested in building systems that are both scalable and useful in real-world environments. I take pride in what I build and enjoy continuously learning, improving, and sharing what I know with others.
+
+I’m currently seeking software engineering or full-stack development internship opportunities where I can contribute to meaningful projects, grow as a developer, and continue building real-world experience.
                   </p>
                 </div>
               </div>
