@@ -11,7 +11,7 @@ const projects = [
     tech: ['React', 'TypeScript', 'API Integration', 'Calendar UI', 'Real-time Updates'],
     color: 'purple' as const,
     icon: <Calendar className="w-8 h-8" />,
-    link: 'https://github.com/your-username',
+    link: 'https://github.com/B-HowellCMD/Video-Game-Release-Calender',
     delay: 0.1
   },
   {
@@ -21,17 +21,17 @@ const projects = [
     tech: ['System Programming', 'Display APIs', 'Profile Management', 'Automation'],
     color: 'cyan' as const,
     icon: <Monitor className="w-8 h-8" />,
-    link: 'https://github.com/your-username',
+    link: 'https://github.com/B-HowellCMD/ires',
     delay: 0.2
   },
   {
     id: 3,
-    title: 'Weather Dashboard',
-    description: 'Real-time weather application with detailed forecasts, interactive maps, and location-based alerts. Features a clean, intuitive interface with beautiful data visualization.',
-    tech: ['Weather API', 'Geolocation', 'Data Visualization', 'PWA', 'React'],
+    title: 'Repair POS',
+    description: 'A full-stack point-of-sale system designed for phone and computer repair shops, focused on real-world workflows and operational efficiency. Built to manage tickets, inventory, customer records, and technician performance in a scalable and production-style environment. Designed with secure authentication, role-based access, and integrated payment processing, the system supports both technicians and business owners through a responsive interface optimized for desktop and iPad use.',
+    tech: ['System Design', 'Scalable Architecture', 'Full Stack', 'Payment Integration', 'Role-Based Access', 'Authentication'],
     color: 'pink' as const,
     icon: <Cloud className="w-8 h-8" />,
-    link: 'https://github.com/your-username',
+    link: 'https://github.com/B-HowellCMD/Repair-POS-Project-',
     delay: 0.3
   }
 ];
