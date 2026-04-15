@@ -12,5 +12,3 @@ Allow: /
 
 User-agent: *
 Allow: /
-
-# republish 2026-04-14T21:24:13Z
