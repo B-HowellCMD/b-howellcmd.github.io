@@ -1,9 +1,19 @@
 import { motion } from 'framer-motion';
 import { GlowCard } from '@/components/interactive/GlowCard';
 import { ParticleButton } from '@/components/interactive/ParticleButton';
-import { Mail, Github, Linkedin, MessageSquare } from 'lucide-react';
+import { Download, Mail, Github, Linkedin, MessageSquare } from 'lucide-react';
 
 export const ContactSection = () => {
+  const resumeUrl = '/Bryson_Howell_Resume.pdf';
+  const downloadResume = () => {
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = 'Bryson_Howell_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   const contactMethods = [
     {
       icon: <Mail className="w-6 h-6" />,
@@ -25,6 +35,13 @@ export const ContactSection = () => {
       value: "B-HowellCMD",
       action: () => window.open("https://www.linkedin.com/in/B-HowellCMD/", "_blank"),
       color: 'pink' as const
+    },
+    {
+      icon: <Download className="w-6 h-6" />,
+      label: 'Resume',
+      value: 'Download PDF',
+      action: downloadResume,
+      color: 'yellow' as const
     }
   ];
 
@@ -86,7 +103,7 @@ export const ContactSection = () => {
           </motion.div>
           
           {/* Contact Methods */}
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {contactMethods.map((method, index) => (
               <motion.div
                 key={method.label}
@@ -101,6 +118,7 @@ export const ContactSection = () => {
                       w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4
                       ${method.color === 'purple' ? 'bg-retro-purple/20 text-retro-purple' :
                         method.color === 'cyan' ? 'bg-retro-cyan/20 text-retro-cyan' :
+                        method.color === 'yellow' ? 'bg-retro-yellow/20 text-retro-yellow' :
                         'bg-retro-pink/20 text-retro-pink'}
                     `}>
                       {method.icon}

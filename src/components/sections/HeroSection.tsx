@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
 import { ParticleButton } from '@/components/interactive/ParticleButton';
-import { ChevronDown, Github, Mail, ExternalLink } from 'lucide-react';
+import { ChevronDown, FileText, Github, Mail } from 'lucide-react';
 
 export const HeroSection = () => {
+  const resumeUrl = '/Bryson_Howell_Resume.pdf';
+
   const scrollToProjects = () => {
     const projectsSection = document.getElementById('projects');
     projectsSection?.scrollIntoView({ behavior: 'smooth' });
@@ -59,6 +61,14 @@ export const HeroSection = () => {
           >
             <ParticleButton variant="purple" onClick={scrollToProjects}>
               View My Work
+            </ParticleButton>
+
+            <ParticleButton
+              variant="yellow"
+              onClick={() => window.open(resumeUrl, '_blank', 'noopener,noreferrer')}
+            >
+              <FileText className="w-4 h-4 mr-2" />
+              Resume
             </ParticleButton>
             
             <ParticleButton 
