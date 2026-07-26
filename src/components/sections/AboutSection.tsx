@@ -1,14 +1,14 @@
 import { motion } from 'framer-motion';
 import { GlowCard } from '@/components/interactive/GlowCard';
-import { Code, Gamepad2, Cpu, Palette, Database, Zap } from 'lucide-react';
+import { Code, Cpu, Database, Monitor, ShieldCheck, Zap } from 'lucide-react';
 
 const skills = [
-  { icon: <Code className="w-6 h-6" />, name: "React & TypeScript" },
-  { icon: <Gamepad2 className="w-6 h-6" />, name: "Full Stack Development (Node.js, APIs, PostgreSQL)" },
-  { icon: <Cpu className="w-6 h-6" />, name: "Cloud & DevOps (AWS, Docker, Linux)" },
-  { icon: <Database className="w-6 h-6" />, name: "API Design & Integration" },
-  { icon: <Palette className="w-6 h-6" />, name: "System-Level Thinking (OS, performance, monitoring)" },
-  { icon: <Zap className="w-6 h-6" />, name: "Debugging & Performance Optimization" }
+  { icon: <Code className="w-6 h-6" />, name: "Apple Platforms: Swift, SwiftUI, SwiftData, CloudKit, Vision, Core ML" },
+  { icon: <Monitor className="w-6 h-6" />, name: "Windows Desktop: C#, .NET 8, WPF, async workflows, file-system tooling" },
+  { icon: <Cpu className="w-6 h-6" />, name: "Systems & Performance: C++, Metal, Instruments, benchmarking, profiling" },
+  { icon: <Database className="w-6 h-6" />, name: "Data & Sync: local persistence, offline-first design, JSON, CSV, validation" },
+  { icon: <Zap className="w-6 h-6" />, name: "Web Development: React, TypeScript, interactive UI, REST API integration" },
+  { icon: <ShieldCheck className="w-6 h-6" />, name: "Quality: XCTest, error handling, logging, accessibility, Git/GitHub" }
 ];
 
 export const AboutSection = () => {
@@ -38,18 +38,26 @@ export const AboutSection = () => {
             <GlowCard glowColor="purple">
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-foreground mb-6">
-                  Computer Science Student 
+                  Computer Science Student and Software Engineering Intern Candidate
                 </h3>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                      I started my career in hands-on technical roles, working my way up to a leadership position at uBreakiFix before moving into an advanced repair role at Best Buy. Those experiences put me in fast-paced, problem-solving environments where I learned how to diagnose complex issues, communicate clearly with people of all backgrounds, and take ownership of real outcomes. Whether I’m fixing a device, troubleshooting a system issue, or helping someone understand new technology, I enjoy breaking problems down and finding practical solutions.                  </p>
-                  <p>
-                    That same mindset is what led me into software development. I’m currently pursuing a degree in Computer Science and building full-stack applications using modern technologies like React, Node.js, and PostgreSQL. I’ve developed a strong foundation through coursework in operating systems, compilers, frontend and backend development, and Linux systems, and I apply those concepts directly in my projects.
+                    I started in hands-on technical roles, working through electronics repair, device diagnostics,
+                    customer support, and team leadership before moving deeper into software development. That background
+                    shaped how I build: I care about practical tools, clear workflows, reliable error handling, and software
+                    that solves real problems for real users.
                   </p>
                   <p>
-                    I’m especially interested in building systems that are both scalable and useful in real-world environments. I take pride in what I build and enjoy continuously learning, improving, and sharing what I know with others.
-
-I’m currently seeking software engineering or full-stack development internship opportunities where I can contribute to meaningful projects, grow as a developer, and continue building real-world experience.
+                    I’m currently pursuing a Computer Science degree at WGU while building projects across Apple platforms,
+                    Windows desktop, web, and data-driven applications. My current technical focus includes Swift, SwiftUI,
+                    SwiftData, CloudKit, Vision, Core ML, C#, .NET 8, WPF, React, TypeScript, C++, Metal, and performance
+                    profiling with Apple developer tools.
+                  </p>
+                  <p>
+                    I’m especially interested in native application development, Apple-platform engineering, desktop tools,
+                    systems performance, and software that supports technical workflows. I’m seeking software engineering
+                    internship opportunities where I can contribute to meaningful products, keep learning from experienced
+                    engineers, and bring a practical support-and-repair mindset to the team.
                   </p>
                 </div>
               </div>

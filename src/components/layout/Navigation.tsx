@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import { FileText } from 'lucide-react';
 
 const navItems = [
   { name: 'Home', href: '#' },
@@ -11,6 +12,7 @@ const navItems = [
 export const Navigation = () => {
   const [activeSection, setActiveSection] = useState('');
   const [isScrolled, setIsScrolled] = useState(false);
+  const resumeUrl = '/Bryson_Howell_Resume.pdf';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -96,6 +98,16 @@ export const Navigation = () => {
                 </motion.button>
               );
             })}
+
+            <motion.button
+              onClick={() => window.open(resumeUrl, '_blank', 'noopener,noreferrer')}
+              className="inline-flex items-center gap-2 rounded-md border border-retro-purple/50 px-4 py-2 text-sm font-semibold text-retro-purple transition-colors duration-200 hover:border-retro-purple hover:bg-retro-purple/10 hover:text-foreground"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <FileText className="w-4 h-4" />
+              Resume
+            </motion.button>
           </div>
           
           {/* Mobile Menu Button */}
